@@ -16,7 +16,7 @@ group :assets do
   gem "sass-rails", "~> 5.0"
   # Don't upgrade to Bootstrap 3. It's already responsive, for example, so
   # there's a bunch of things we need to do for the upgrade
-  gem "bootstrap-sass", "~> 2.0"
+  gem "bootstrap-sass", "~> 3.4"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # IMPORTANT NOTE - as a short term workaround we have installed nodejs on the cuttlefish server
@@ -37,7 +37,7 @@ gem "jbuilder"
 gem "eventmachine"
 # We're using a very old version of redis currently which forces us stay at version 5 of sidekiq
 # TODO: Update redis
-gem "sidekiq", "~> 5.1"
+gem "sidekiq", "~> 6.5"
 gem "sinatra", require: nil
 
 gem "batch-loader"
